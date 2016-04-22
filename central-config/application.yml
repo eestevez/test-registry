@@ -3,3 +3,9 @@ configserver:
     status: ${spring.cloud.config.uri}/${spring.cloud.config.label}/${spring.cloud.config.name}-${spring.cloud.config.profile}.yml/
 
 test: test Github
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
