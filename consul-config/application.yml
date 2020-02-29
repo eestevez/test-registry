@@ -8,8 +8,12 @@ jhipster:
             jwt:
                 secret: my-secret-token-to-change-in-production
 
+
 spring:
-  cloud:
+    cloud:
+        consul:
+            host: localhost
+            port: 8500
     loadbalancer:
       ribbon:
-        enabled: false 
+        enabled: false
