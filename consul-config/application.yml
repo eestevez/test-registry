@@ -7,13 +7,8 @@ jhipster:
         authentication:
             jwt:
                 secret: my-secret-token-to-change-in-production
-
-
 spring:
     cloud:
         consul:
             host: consul
             port: 8500
-    loadbalancer:
-      ribbon:
-        enabled: false
