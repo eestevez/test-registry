@@ -12,7 +12,7 @@ jhipster:
 spring:
     cloud:
         consul:
-            host: localhost
+            host: consul
             port: 8500
     loadbalancer:
       ribbon:
