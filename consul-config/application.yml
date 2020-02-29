@@ -10,5 +10,5 @@ jhipster:
 spring:
     cloud:
         consul:
-            host: server-1
+            host: localhost
             port: 8500
