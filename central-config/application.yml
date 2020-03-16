@@ -5,7 +5,7 @@
 # Property used on app startup to check the config server status
 configserver:
     name: JHipster Registry config server
-    status: Connected to the JHipster Registry config server! ${spring.cloud.config.uri}/${spring.cloud.config.label}/${spring.cloud.config.name}-${spring.cloud.config.profile}.yml/
+    status: Connected to the JHipster Registry config server! 2
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
